@@ -1,4 +1,6 @@
-package latihan2;
+package latihan_PBO.latihan3;
+
+//access modifer (public, private, protected)
 
 class Persegi{
     private int sisi;
@@ -6,8 +8,9 @@ class Persegi{
     public int getSisi(){
         return sisi*sisi;
     }
+
     public double kelilingPersegi(){
-        return 4*sisi;
+        return 4 * sisi;
     }
 
     public void setSisi(int sisi){
@@ -15,8 +18,8 @@ class Persegi{
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
+public class Main{
+    public static void main(String[] args){
 
         Persegi p = new Persegi();
         p.setSisi(5);
