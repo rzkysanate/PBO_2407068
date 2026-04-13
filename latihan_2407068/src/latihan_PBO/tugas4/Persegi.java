@@ -3,18 +3,18 @@ package latihan_PBO.tugas4;
 public class Persegi extends BangunDatar {
     
     public Persegi(double sisi) {
-        super(sisi); 
+        super(sisi);
     }
-    
+
     @Override
     public double hitungLuas() {
-        return varA * varA;
+        return getVarA() * getVarA();
     }
-    
+
     @Override
     public void tampilkan() {
         System.out.println("Persegi");
-        System.out.println("Sisi: " + varA);
+        System.out.println("Sisi: " + getVarA());
         System.out.println("Luas: " + hitungLuas());
         System.out.println("========================================");
     }

@@ -1,21 +1,21 @@
 package latihan_PBO.tugas4;
 
 public class Segitiga extends BangunDatar {
-    
+
     public Segitiga(double alas, double tinggi) {
-        super(alas, tinggi);
+        super(alas, tinggi); 
     }
-    
+
     @Override
     public double hitungLuas() {
-        return 0.5 * varA * varB; 
+        return 0.5 * getVarA() * getVarB();  
     }
-    
+
     @Override
     public void tampilkan() {
         System.out.println("Segitiga");
-        System.out.println("Alas: " + varA);
-        System.out.println("Tinggi: " + varB);
+        System.out.println("Alas: " + getVarA());
+        System.out.println("Tinggi: " + getVarB());
         System.out.println("Luas: " + hitungLuas());
         System.out.println("========================================");
     }
