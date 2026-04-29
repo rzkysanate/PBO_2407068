@@ -17,6 +17,6 @@ public class Main {
             totalSemua += menu.hitungTotal();
         }
 
-        System.out.println("\nTotal belanja semuanya : Rp" + totalSemua);
+        System.out.println("Total belanja semuanya : Rp" + totalSemua);
     }
 }
